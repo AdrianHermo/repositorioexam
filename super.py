@@ -29,3 +29,12 @@ def enseñar_lista(lista):
     for elemento in lista:
         print(elemento)
 
+# cambiar la lista
+
+def cambiar_lista(lista):
+    print(lista)
+    posicion =int(input("Eligue la posicion que quieres cambiar: "))
+    nuevafruta = input("Que quieres añadir: ")
+    cambiar_lista[posicion] = nuevafruta
+    print(lista)
+
