@@ -12,3 +12,12 @@ def añadir_elemento(lista):
     lista.append(elemento)
     print(lista)
 
+# eliminar produto
+
+
+def eliminar_elemento(lista):
+    print(lista)
+    eliminar = str(input('Que elemento desea eliminar: '))
+    if eliminar in lista:
+        lista.remove(eliminar)
+
