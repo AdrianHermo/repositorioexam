@@ -21,3 +21,11 @@ def eliminar_elemento(lista):
     if eliminar in lista:
         lista.remove(eliminar)
 
+# enseñar lista final
+
+
+def enseñar_lista(lista):
+    print('Tu lista de la compra contiene:')
+    for elemento in lista:
+        print(elemento)
+
